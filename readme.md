@@ -1,98 +1,85 @@
-<img src="https://github.com/user-attachments/assets/a6ae2080-e865-4fde-b41d-5a09964d7de2">
-
-## Introduction
-
-InvoiceShelf is an open-source web & mobile app that helps you track expenses, payments & create professional invoices & estimates.
-
-InvoiceShelf is a fork of [Crater](https://crater.finance) that focuses in stability, updates and new features.
-
-The Web Application is made using Laravel & VueJS while the Mobile Apps are built using React Native.
-
-**NOTE:** The docker image files are moved into a separate repository [InvoiceShelf/docker](https://github.com/InvoiceShelf/docker).
-
-# Table of Contents
-
-1. [Documentation](#documentation)
-2. [Download](#download)
-3. [Mobile Apps](#mobile-apps)
-4. [Discord - **NEW**](#discord) 🔥
-5. [Roadmap](#roadmap)
-6. [Credits](#credits)
-7. [Help us translate](#translate)
-8. [License](#license)
-
-## Documentation
-
-- [Installation Steps](https://docs.invoiceshelf.com/installation.html)
-- [User Guide](https://docs.invoiceshelf.com/)
-- [Developer Guide](https://docs.invoiceshelf.com/developer-guide.html)
-- [API Documentation](https://api-docs.invoiceshelf.com)
-
-## Download
-
-- [Download Link](https://invoiceshelf.com)
-
-## Mobile Apps
-
-- Andorid - Coming Soon
-- IOS - Coming Soon
-- [Source](https://github.com/InvoiceShelf/mobile)
-
-## Discord
-
-Join the InvoiceShelf discord server to discuss:
-[Invite Link](https://discord.gg/eHXf4zWhsR)
-
-## Roadmap
-
-~~Here's a rough roadmap of things to come (not in any specific order):
-
-- [x] Automatic Update
-- [x] Email Configuration
-- [x] Installation Wizard
-- [x] Address Customisation & Default notes
-- [x] Edit Email before Sending Invoice
-- [x] Available as a docker image
-- [x] Performance Improvements
-- [x] Customer View page
-- [x] Add and Use Custom Fields on Invoices & Estimates.
-- [x] Multiple Companies
-- [x] Recurring Invoices
-- [x] Customer Portal
-- [ ] Accept Payments (Stripe Integration)
-- [ ] Improved template system (invoices and estimate)
-- [ ] Modules and templates marketplace
-
-
-## Copyright
-
-- © 2024 IDEOLOGIX MEDIA DOOEL.
-- © 2022 Crater Invoice, Inc
-
-**Special thanks to:**
-
-- [Crater](https://crater.finance/)
-- [Birkhoff Lee](https://github.com/BirkhoffLee)
-- [Akaunting](https://github.com/akaunting/akaunting)
-- [MakerLab](https://github.com/MakerLab-Dev)
-- [Sebastian Cretu](https://github.com/sebastiancretu)
-- [Florian Gareis](https://github.com/TheZoker)
-
-## Translate
-
-Help us translate on https://crowdin.com/project/invoiceshelf
-
-**Thanks to Translation Contributors:**
-
-- [Hassan A. Ba Abdullah (Arabic)](https://github.com/hsnapps)
-- [Clément de Louvencourt (French)](https://github.com/PHClement)
-- [Robin Delattre (French)](https://github.com/RobinDev)
-- [René Loos (Dutch)](https://github.com/Loosie94)
-- [Stefan Azarić (Serbian)](https://github.com/azaricstefan)
-- [Emmanuel Lampe (German)](https://github.com/rexlManu)
-- [edevrob (Latvian)](https://github.com/edevrob)
-
-## License
-
-InvoiceShelf is released under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
-See [LICENSE](LICENSE) for details.
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/5760249/348439634-a6ae2080-e865-4fde-b41d-5a09964d7de2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE5MDAyOTAsIm5iZiI6MTczMTg5OTk5MCwicGF0aCI6Ii81NzYwMjQ5LzM0ODQzOTYzNC1hNmFlMjA4MC1lODY1LTRmZGUtYjQxZC01YTA5OTY0ZDdkZTIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTExOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDExMThUMDMxOTUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTA2ZGU5OWE0NDBhMDVjMjExN2RhZDAzMDVhMjU2N2NkZDU0OTM0ZmRhNWU5NGJjNWY4NDk5NGQwMThmZDgxMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.mX38NvtYJ98UfoZUZFdfMzgiuoFRBGiR9HkYERrgJnE"><img src="https://private-user-images.githubusercontent.com/5760249/348439634-a6ae2080-e865-4fde-b41d-5a09964d7de2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE5MDAyOTAsIm5iZiI6MTczMTg5OTk5MCwicGF0aCI6Ii81NzYwMjQ5LzM0ODQzOTYzNC1hNmFlMjA4MC1lODY1LTRmZGUtYjQxZC01YTA5OTY0ZDdkZTIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTExOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDExMThUMDMxOTUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTA2ZGU5OWE0NDBhMDVjMjExN2RhZDAzMDVhMjU2N2NkZDU0OTM0ZmRhNWU5NGJjNWY4NDk5NGQwMThmZDgxMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.mX38NvtYJ98UfoZUZFdfMzgiuoFRBGiR9HkYERrgJnE" style="max-width: 100%;"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5211505" _msthash="348">介绍</h2><a id="user-content-introduction" class="anchor" aria-label="永久链接： 简介" href="#introduction" _mstaria-label="523835" _msthash="349"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="518030149" _msthash="350">InvoiceShelf是一个开源的网络和移动应用程序，可以帮助您跟踪费用、付款并创建专业的发票和估算。</p>
+<p dir="auto" _msttexthash="238549805" _msthash="351">InvoiceShelf 是 <a href="https://crater.finance" rel="nofollow" _istranslated="1">Crater</a> 的一个分支，专注于稳定性、更新和新功能。</p>
+<p dir="auto" _msttexthash="303680624" _msthash="352">Web应用程序是使用Laravel和VueJS构建的，而移动应用程序是使用React Native构建的。</p>
+<p dir="auto" _msttexthash="136478784" _msthash="353"><strong _istranslated="1">注意：</strong>docker 镜像文件将移动到单独的存储库 <a href="https://github.com/InvoiceShelf/docker" _istranslated="1">InvoiceShelf/docker</a> 中。</p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5308706" _msthash="354">目录</h1><a id="user-content-table-of-contents" class="anchor" aria-label="永久链接：目录" href="#table-of-contents" _mstaria-label="634764" _msthash="355"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="#documentation" _msttexthash="5144373" _msthash="356">文档</a></li>
+<li><a href="#download" _msttexthash="5638321" _msthash="357">下载</a></li>
+<li><a href="#mobile-apps" _msttexthash="20018102" _msthash="358">移动应用程序</a></li>
+<li _msttexthash="29204149" _msthash="359"><a href="#discord" _istranslated="1">Discord - <strong _istranslated="1">新</strong></a> 🔥</li>
+<li><a href="#roadmap" _msttexthash="9286563" _msthash="360">路线图</a></li>
+<li><a href="#credits" _msttexthash="4313010" _msthash="361">学分</a></li>
+<li><a href="#translate" _msttexthash="20227376" _msthash="362">帮助我们翻译</a></li>
+<li><a href="#license" _msttexthash="9675445" _msthash="363">许可证</a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5144373" _msthash="364">文档</h2><a id="user-content-documentation" class="anchor" aria-label="永久链接： 文档" href="#documentation" _mstaria-label="559767" _msthash="365"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://docs.invoiceshelf.com/installation.html" rel="nofollow" _msttexthash="14136876" _msthash="366">安装步骤</a></li>
+<li><a href="https://docs.invoiceshelf.com/" rel="nofollow" _msttexthash="11083761" _msthash="367">用户指南</a></li>
+<li><a href="https://docs.invoiceshelf.com/developer-guide.html" rel="nofollow" _msttexthash="16563079" _msthash="368">开发人员指南</a></li>
+<li><a href="https://api-docs.invoiceshelf.com" rel="nofollow" _msttexthash="7222995" _msthash="369">API 文档</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5638321" _msthash="370">下载</h2><a id="user-content-download" class="anchor" aria-label="永久链接： 下载" href="#download" _mstaria-label="367133" _msthash="371"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://invoiceshelf.com" rel="nofollow" _msttexthash="13417105" _msthash="372">下载链接</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="20018102" _msthash="373">移动应用程序</h2><a id="user-content-mobile-apps" class="anchor" aria-label="永久链接： 移动应用程序" href="#mobile-apps" _mstaria-label="429221" _msthash="374"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="19715982" _msthash="375">Andorid - 即将推出</li>
+<li _msttexthash="14891357" _msthash="376">IOS - 即将推出</li>
+<li><a href="https://github.com/InvoiceShelf/mobile" _msttexthash="2575664" _msthash="377">源</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4069247" _msthash="378">不和</h2><a id="user-content-discord" class="anchor" aria-label="永久链接：Discord" href="#discord" _mstaria-label="333255" _msthash="379"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="150836426" _msthash="380">加入 InvoiceShelf discord 服务器讨论：<a href="https://discord.gg/eHXf4zWhsR" rel="nofollow" _istranslated="1">邀请链接</a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="9286563" _msthash="381">路线图</h2><a id="user-content-roadmap" class="anchor" aria-label="永久链接： 路线图" href="#roadmap" _mstaria-label="331747" _msthash="382"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="251337021" _msthash="383">~~以下是即将发生的事情的粗略路线图（不按任何特定顺序）：</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="11694930" _msthash="384">自动更新</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="22531028" _msthash="385">电子邮件配置</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="11352952" _msthash="386">安装向导</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="34898344" _msthash="387">地址定制和默认备注</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="60651253" _msthash="388">在发送发票之前编辑电子邮件</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="26197106" _msthash="389">作为 Docker 镜像提供</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="13493480" _msthash="390">性能改进</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="19922474" _msthash="391">Customer View 页面</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="86379163" _msthash="392">在发票和估计上添加和使用自定义字段。</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="9750650" _msthash="393">多家公司</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="15576418" _msthash="394">经常性发票</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font _mstmutation="1" _msttexthash="12508132" _msthash="395">客户门户</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font _mstmutation="1" _msttexthash="52147355" _msthash="396">接受付款（Stripe 集成）</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font _mstmutation="1" _msttexthash="84386913" _msthash="397">改进的模板系统（发票和估算）</font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font _mstmutation="1" _msttexthash="22178884" _msthash="398">模块和模板市场</font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5411536" _msthash="399">版权</h2><a id="user-content-copyright" class="anchor" aria-label="永久链接：版权" href="#copyright" _mstaria-label="408707" _msthash="400"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="5374746" _msthash="401">© 2024 IDEOLOGIX MEDIA DOOEL。</li>
+<li _msttexthash="37913265" _msthash="402">© 2022 Crater Invoice， Inc 公司</li>
+</ul>
+<p dir="auto"><strong _msttexthash="23593284" _msthash="403">特别鸣谢：</strong></p>
+<ul dir="auto">
+<li><a href="https://crater.finance/" rel="nofollow" _msttexthash="7592624" _msthash="404">火山口</a></li>
+<li><a href="https://github.com/BirkhoffLee" _msttexthash="15240888" _msthash="405">李伯克霍夫</a></li>
+<li><a href="https://github.com/akaunting/akaunting" _msttexthash="8668920" _msthash="406">阿坎廷</a></li>
+<li><a href="https://github.com/MakerLab-Dev" _msttexthash="15594579" _msthash="407">创客实验室</a></li>
+<li><a href="https://github.com/sebastiancretu" _msttexthash="30288427" _msthash="408">塞巴斯蒂安·克雷图</a></li>
+<li><a href="https://github.com/TheZoker" _msttexthash="27128101" _msthash="409">弗洛里安·加雷斯</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6703905" _msthash="410">翻译</h2><a id="user-content-translate" class="anchor" aria-label="永久链接： 翻译" href="#translate" _mstaria-label="404807" _msthash="411"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="75999209" _msthash="412">帮助我们在 <a href="https://crowdin.com/project/invoiceshelf" rel="nofollow" _istranslated="1">https://crowdin.com/project/invoiceshelf</a> 上翻译</p>
+<p dir="auto"><strong _msttexthash="41670382" _msthash="413">感谢翻译贡献者：</strong></p>
+<ul dir="auto">
+<li><a href="https://github.com/hsnapps" _msttexthash="89784123" _msthash="414">Hassan A. Ba Abdullah （阿拉伯语）</a></li>
+<li><a href="https://github.com/PHClement" _msttexthash="72499999" _msthash="415">Clément de Louvencourt （法语）</a></li>
+<li><a href="https://github.com/RobinDev" _msttexthash="54574637" _msthash="416">Robin Delattre （法语）</a></li>
+<li><a href="https://github.com/Loosie94" _msttexthash="39745433" _msthash="417">René Loos （荷兰）</a></li>
+<li><a href="https://github.com/azaricstefan" _msttexthash="76385855" _msthash="418">Stefan Azarić （塞尔维亚语）</a></li>
+<li><a href="https://github.com/rexlManu" _msttexthash="49778469" _msthash="419">Emmanuel Lampe （德国）</a></li>
+<li><a href="https://github.com/edevrob" _msttexthash="61503858" _msthash="420">edevrob （拉脱维亚语）</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="9675445" _msthash="421">许可证</h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license" _mstaria-label="331903" _msthash="422"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="370712771" _msthash="423">InvoiceShelf 根据 GNU AFFERO 通用公共许可证第 3 版发布。
+有关详细信息，请参阅 <a href="/InvoiceShelf/InvoiceShelf/blob/master/LICENSE" _istranslated="1">LICENSE</a> 。</p>
+</article></div>
